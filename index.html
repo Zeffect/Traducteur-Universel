@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="globetraductor.webp" type="image/x-icon">
+    <title>Traducteur | Universel</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="img-container">
+            <img src="zeffectsystems-.png" alt="Logo de Zeffect Systems">
+        </div>
+        <h2>Zeffect Systems</h2>
+    </header>
+    
+    <div class="container">
+        <h1>Traducteur Universel</h1>
+        <div class="translator">
+            <textarea id="inputText" placeholder="Entrez votre texte ici..."></textarea>
+            <select id="translationType">
+                <option value="original">Original</option>
+                <option value="binary">Binaire</option>
+                <option value="morse">Morse</option>
+                <option value="hex">Hexadécimal</option>
+            </select>
+            <button id="translateButton">Traduire</button>
+            <textarea id="outputText" placeholder="Traduction..." readonly></textarea>
+            <div id="errorMessage" class="error-message"></div>
+            <button id="copyButton" class="copyButton">Copier</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+
+    <footer>
+        <div class="logo-container">
+            <img src="globetraductor.webp" alt="Logo de votre site">
+        </div>
+        <div class="text-container">
+            <p>Made by Zeffect ©2024. Tous droits réservés</p>
+            <p>zeffectsystems@gmail.com</p>
+        </div>
+    </footer>
+</body>
+</html>
